@@ -1,0 +1,190 @@
+<root>
+<!-- 	<DrivePlanner id="1" carSpawnChance="0.25" spawnInterval="10">
+		<Car id="Greencar">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7934" y="2510" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7885" y="2616" middleX="7876" middleY="2554" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Redcar">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7973" y="2498" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7864" y="2625" middleX="7859" middleY="2564" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Whitecar">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7973" y="2498" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7864" y="2625" middleX="7859" middleY="2564" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Van">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7898" y="2538" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7881" y="2646" middleX="7857" middleY="2586" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Taxi">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7973" y="2498" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7864" y="2625" middleX="7859" middleY="2564" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Police">
+			<CarAction type="teleport">
+				<Params x="11641" y="658" direction="3"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7973" y="2498" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7864" y="2625" middleX="7859" middleY="2564" time="1.0" direction="5"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="9191" y="3305" speed="3"/>
+			</CarAction>
+		</Car>
+	</DrivePlanner>
+	<DrivePlanner id="2" carSpawnChance="0.25" spawnInterval="10">
+		<Car id="Redcar">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7751" y="2526" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Bus">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7751" y="2526" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Greencar">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7757" y="2501" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Police">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7751" y="2526" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Van">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7757" y="2503" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Whitecar">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7767" y="2511" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+		<Car id="Taxi">
+			<CarAction type="teleport">
+				<Params x="9098" y="3353" direction="1"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="7737" y="2666" speed="3"/>
+			</CarAction>
+			<CarAction type="turn">
+				<Params x="7751" y="2526" middleX="7708" middleY="2583" time="1.0" direction="7"/>
+			</CarAction>
+			<CarAction type="move">
+				<Params x="11567" y="621" speed="3"/>
+			</CarAction>
+		</Car>
+	</DrivePlanner>
+	<OverPass x="180" y="39" width="6" height="10" dirs="3,7"/>
+	<OverPass x="188" y="34" width="10" height="6" dirs="1,5"/> -->
+</root>

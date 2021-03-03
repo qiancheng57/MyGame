@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Buildings>
+	<group id="ground_road">
+		<item id="road_dirt"/>
+		<item id="road_dirt_1"/>
+		<item id="road_dirt_2"/>
+		<item id="road_dirt_3"/>
+		<item id="road_dirt_4"/>
+	</group>
+	<group id="grass_road">
+		<item id="road_flowers_orange"/>
+		<item id="road_flowers_white"/>
+		<item id="road_windfall"/>
+		<item id="road_grass"/>
+	</group>
+	<group id="hard_road" allowSweeping="true">
+		<item id="road_red_brick"/>
+		<item id="road_american"/>
+		<item id="road_chinese"/>
+		<item id="road_french"/>
+		<item id="road_ireland"/>
+		<item id="road_italian"/>
+		<item id="road_russian"/>
+		<item id="road_sand"/>
+		<item id="road_moss"/>
+	</group>
+	<group id="shore_waterfall" modifiedViewBehaviour="shore_waterfall">
+		<item id="shore_wf_left_t_1"/>
+		<item id="shore_wf_left_t_2"/>
+		<item id="shore_wf_left_t_4"/>
+		<item id="shore_wf_right_t_1"/>
+		<item id="shore_wf_right_t_2"/>
+		<item id="shore_wf_right_t_3"/>
+		<item id="shore_wf_right_t_4"/>
+		<item id="shore_wf_bottom"/>
+	</group>
+	<group id="shore_base" modifiedViewBehaviour="shore_base">
+		<item id="shore_a_l"/>
+		<item id="shore_a_r"/>
+		<item id="shore_a_dl"/>
+		<item id="shore_a_dr"/>
+		<item id="shore_l"/>
+		<item id="shore_r"/>
+		<item id="shore_i"/>
+		<item id="shore_o"/>
+	</group>
+	<group id="driveway">
+		<item id="driveway_side_tl"/>
+		<item id="driveway_side_tr"/>
+		<item id="driveway_side_bl"/>
+		<item id="driveway_side_br"/>
+		<item id="driveway_sidewalk_tl"/>
+		<item id="driveway_sidewalk_tr"/>
+		<item id="driveway_sidewalk_bl"/>
+		<item id="driveway_sidewalk_br"/>
+		<item id="driveway_road_1"/>
+		<item id="driveway_road_2"/>
+		<item id="driveway_road_0"/>
+	</group>
+	<group id="lawn_new_angular">
+		<item id="border_flower_angular"/>
+		<item id="border_ground_angular"/>
+	</group>
+	<group id="lawn_new_round">
+		<item id="border_flower_round"/>
+		<item id="border_ground_round"/>
+	</group>
+	<group id="border_new">
+		<item id="border_brick"/>
+		<item id="border_stone"/>
+		<item id="border_wood"/>
+	</group>
+	<group id="CascadeStand">
+		<insertable group="SmallLantern"/>
+	</group>
+	<!-- баллюстрада-->
+	<group id="ballust" modifiedViewBehaviour="crossing" suppressDust="true">
+		<item id="ballust_main"/>
+		<connect id="ballust_pillar_short"/>
+	</group>
+	<group id="ballust_elements" suppressDust="true">
+		<item id="ballust_pillar_short"/>
+		<insertable group="Pot"/>
+		<insertable group="SmallLantern"/>
+	</group>
+	<group id="ballust_old" modifiedViewBehaviour="crossing" suppressDust="true">
+		<item id="ballust_old"/>
+		<connect id="ballust_old_pillar_long"/>
+		<connect id="ballust_old_pillar_short"/>
+		<connect id="ballust_old_pillar_long_broken"/>
+		<connect id="ballust_old_pillar_short_broken"/>
+	</group>
+	<group id="ballust_old_elements" suppressDust="true">
+		<item id="ballust_old_pillar_long"/>
+		<item id="ballust_old_pillar_short"/>
+		<item id="ballust_old_pillar_long_broken"/>
+		<item id="ballust_old_pillar_short_broken"/>
+	</group>
+	<group id="terrace" modifiedViewBehaviour="terrace" suppressDust="true">
+		<item id="terrace"/>
+		<item id="terrace_no_left"/>
+		<item id="terrace_water"/>
+		<item id="terrace_water_shadow"/>
+		<item id="terrace_shadow_bottom_0"/>
+		<item id="terrace_shadow_top_1"/>
+		<item id="terrace_bottom_0"/>
+		<item id="terrace_top_0"/>
+	</group>
+	<group id="stair" needOffsetOnBorder="false" suppressDust="true">
+		<item id="stair_center"/>
+		<item id="stair_left"/>
+		<item id="stair_right"/>
+		<item id="stair_shadow_center"/>
+		<item id="stair_shadow_left"/>
+		<item id="stair_shadow_left_column_top"/>
+		<item id="stair_shadow_left_column_all"/>
+		<item id="stair_shadow_right"/>
+		<item id="stair_shadow_right_column_all"/>
+	</group>
+	<group id="Theatre_Border" needOffsetOnBorder="false" suppressDust="true">
+		<item id="Theatre_Border1"/>
+		<item id="Theatre_Border2"/>
+		<item id="Theatre_Border3"/>
+		<item id="Theatre_Border4"/>
+		<item id="Theatre_Border5"/>
+		<item id="Theatre_Border6"/>
+		<item id="Theatre_Border7"/>
+		<item id="Theatre_Border8"/>
+		<item id="Theatre_Border9"/>
+		<item id="Theatre_Border10"/>
+		<item id="Theatre_Border11"/>
+		<item id="Theatre_Border12"/>
+		<item id="Theatre_Border13"/>
+		<item id="Theatre_Border14"/>
+	</group>
+	<group id="theater_ballust" needOffsetOnBorder="false" suppressDust="true">
+		<item id="theater_ballust1"/>
+		<item id="theater_ballust2"/>
+		<item id="theater_ballust3"/>
+		<item id="Theatre_Border4"/>
+	</group>
+	<group id="cliff" modifiedViewBehaviour="vertical" suppressDust="true">
+		<item id="cliff"/>
+		<item id="cliff_shadow"/>
+	</group>
+	<group id="pool" modifiedViewBehaviour="pool">
+		<item id="pool_corner"/>
+		<item id="pool_corner_circle"/>
+		<insertable group="WaterFlowers"/>
+	</group>
+	<group id="pool_old" modifiedViewBehaviour="pool">
+		<item id="pool_old_circle"/>
+	</group>
+	<group id="pool_column">
+		<insertable group="Pot"/>
+		<insertable group="SmallLantern"/>
+	</group>
+	<!-- ограда-->
+	<group id="fence_stone" modifiedViewBehaviour="crossing" suppressDust="true">
+		<insertable group="Pot"/>
+		<insertable group="SmallLantern"/>
+	</group>
+	<!-- отдельные кусочки ограды на которые можно что нибудь поставить-->
+	<group id="fence_brick" needOffsetOnBorder="false">
+		<item id="fence_green_brick_0_wooly"/>
+		<item id="fence_green_brick_0_round"/>
+		<item id="fence_green_cub_0_round"/>
+		<item id="fence_green_cub_0_wooly"/>
+		<item id="fence_green_cub_0_teal"/>
+		<item id="fence_green_old_cub"/>
+		<insertable group="Pot"/>
+	</group>
+	<group id="fence_green_old" modifiedViewBehaviour="crossing">
+		<item id="fence_green_old"/>
+		<connect id="fence_green_old_cub"/>
+	</group>
+	<group id="fence_green_round" modifiedViewBehaviour="crossing">
+		<item id="fence_green_round"/>
+		<connect id="fence_green_brick_0_round"/>
+		<connect id="fence_green_cub_0_round"/>
+	</group>
+	<group id="fence_green_wooly" modifiedViewBehaviour="crossing">
+		<item id="fence_green_wooly"/>
+		<connect id="fence_green_brick_0_wooly"/>
+		<connect id="fence_green_cub_0_wooly"/>
+	</group>
+	<group id="fence_green_teal" modifiedViewBehaviour="crossing">
+		<item id="fence_green_teal"/>
+		<connect id="fence_green_cub_0_teal"/>
+	</group>
+	<group id="fence_green_soaring" modifiedViewBehaviour="crossing">
+		<connect id="fence_green_arc_0_soaring"/>
+		<connect id="fence_green_arc_1_soaring"/>
+	</group>
+	<group id="fence_green_narrowSoaring" modifiedViewBehaviour="crossing">
+		<item id="fence_green_narrowSoaring"/>
+	</group>
+	<group id="Bench">
+		<item id="bench01"/>
+		<item id="bench02"/>
+		<item id="bench03"/>
+		<item id="bench04"/>
+		<item id="bench05"/>
+		<item id="bench06"/>
+		<item id="bench07"/>
+		<item id="bench08"/>
+	</group>
+	<group id="Snag">
+		<item id="wood01"/>
+		<item id="wood02"/>
+		<item id="wood05"/>
+	</group>
+	<group id="Stump">
+		<item id="wood03"/>
+		<item id="wood04"/>
+	</group>
+	<group id="LightGrass">
+		<item id="light_grass_01"/>
+		<item id="light_grass_02"/>
+		<item id="light_grass_03"/>
+		<item id="light_grass_04"/>
+		<item id="light_grass_05"/>
+		<item id="light_grass_07"/>
+	</group>
+	<group id="area_hard" allowSweeping="true">
+		<item id="area_main"/>
+		<item id="AreaMain_4"/>
+		<item id="AreaMain_5"/>
+		<item id="area_cross"/>
+		<item id="area_cross_inv"/>
+		<item id="area_crossX2"/>
+		<item id="area_tile_aqua"/>
+		<item id="area_tile_brown"/>
+		<item id="area_tile_purple"/>
+		<item id="area_tile_sandy"/>
+		<item id="area_tile_aqua_bottom"/>
+		<item id="area_tile_aqua_left"/>
+		<item id="area_tile_aqua_right"/>
+		<item id="area_tile_aqua_top"/>
+		<item id="area_tile_brown_bottom"/>
+		<item id="area_tile_brown_left"/>
+		<item id="area_tile_brown_right"/>
+		<item id="area_tile_brown_top"/>
+		<item id="area_tile_purple_top"/>
+		<item id="area_tile_purple_bottom"/>
+		<item id="area_tile_purple_right"/>
+		<item id="area_tile_purple_left"/>
+		<item id="area_tile_aqua_inner"/>
+		<item id="area_tile_brown_inner"/>
+		<item id="Area_tile_aqua_bottom_left"/>
+		<item id="Area_tile_aqua_bottom_right"/>
+		<item id="Area_tile_aqua_top_left"/>
+		<item id="Area_tile_aqua_top_right"/>
+		<item id="Area_tile_brown_bottom_left"/>
+		<item id="Area_tile_brown_bottom_right"/>
+		<item id="Area_tile_brown_top_left"/>
+		<item id="Area_tile_brown_top_right"/>
+		<item id="Area_tile_purple_bottom_left"/>
+		<item id="Area_tile_purple_bottom_right"/>
+		<item id="Area_tile_purple_top_left"/>
+		<item id="Area_tile_purple_top_right"/>
+		<item id="area_mosaic_c_0"/>
+		<item id="area_mosaic_c_1"/>
+		<item id="area_mosaic_c_2"/>
+		<item id="area_mosaic_c_3"/>
+		<item id="area_tile_greenish"/>
+		<item id="area_tile_greenish_x2"/>
+		<item id="area_tile_lightbrown"/>
+	</group>
+	<group id="stone_desk">
+		<insertable group="PotLarge"/>
+		<insertable group="Pot"/>
+		<insertable group="PotSmall"/>
+	</group>
+	<group id="PotSmall">
+		<item id="BluePotSmall"/>
+		<item id="CyanPotSmall"/>
+		<item id="BrownPotSmall"/>
+		<insertable group="Flowerbed"/>
+		<insertable group="Flower"/>
+		<insertable group="Flowerbed_roses_small"/>
+		<insertable group="Flowerbed_roses_big"/>
+	</group>
+	<group id="PotLarge">
+		<item id="BluePotLarge"/>
+		<item id="WoodenPotLarge"/>
+		<item id="wooden_ornamentalFlowerpotLeft"/>
+		<item id="wooden_ornamentalFlowerpotRight"/>
+		<insertable group="Flowerbed"/>
+		<insertable group="Flower"/>
+		<insertable group="Flowerbed_roses_small"/>
+		<insertable group="Flowerbed_roses_big"/>
+	</group>
+	<group id="Niche">
+		<insertable group="Flowerbed"/>
+		<insertable group="Flower"/>
+		<insertable group="Flowerbed_roses_small"/>
+		<insertable group="Flowerbed_roses_big"/>
+	</group>
+	<group id="piedestal">
+		<insertable group="Pot"/>
+		<insertable group="SmallLantern"/>
+	</group>
+	<group id="Pot">
+		<item id="pot01"/>
+		<item id="pot03"/>
+		<item id="pot04"/>
+		<item id="pot05"/>
+		<item id="pot06"/>
+		<item id="pot_01"/>
+		<insertable group="Flowerbed"/>
+		<insertable group="Flower"/>
+		<insertable group="Flowerbed_roses_small"/>
+		<insertable group="Flowerbed_roses_big"/>
+	</group>
+	<group id="Placeholder">
+		<insertable group="Pot"/>
+		<insertable group="Flowerbed"/>
+		<insertable group="Flower"/>
+		<insertable group="SmallLantern"/>
+		<insertable group="PotSmall"/>
+	</group>
+	<!-- ползучая изгородь-->
+	<!-- цветы-->
+	<group id="Flowerbed">
+		<item id="flowerbed123"/>
+		<item id="flowerbed456"/>
+		<item id="flower_pur1"/>
+	</group>
+	<group id="Flowerbed_small">
+		<item id="small1_"/>
+		<item id="small2_"/>
+		<item id="small3_"/>
+	</group>
+	<group id="Flowerbed_roses_small">
+		<item id="roses_small_yellow_bridge"/>
+		<item id="roses_small_red"/>
+	</group>
+	<group id="Flowerbed_roses_big">
+		<item id="flowerbeds_roses_big_yellowred"/>
+		<item id="flowerbeds_roses_big_blue"/>
+		<item id="flowerbeds_roses_big_green"/>
+	</group>
+	<group id="Flower">
+		<item id="flower_01"/>
+		<item id="flower_02"/>
+		<item id="flower_03"/>
+		<item id="flower_04"/>
+		<item id="flower_05"/>
+		<item id="flower_06"/>
+		<item id="flower_07"/>
+		<item id="flower_08"/>
+		<item id="flower_09"/>
+		<item id="flower_10_bridge"/>
+		<item id="flower_11"/>
+		<item id="petunia"/>
+		<item id="flowerbedRoses"/>
+	</group>
+	<!-- Плавающие цветочки, кораблики, лампочки-->
+	<group id="WaterFlowers">
+		<item id="Waterlilly1"/>
+		<item id="Waterlilly2"/>
+		<item id="Waterlilly3"/>
+		<item id="Waterlilly4"/>
+		<item id="Waterclover1"/>
+		<item id="Waterclover2"/>
+		<item id="Waterclover3"/>
+		<item id="Waterclover4"/>
+		<item id="Watership1"/>
+		<item id="Watership2"/>
+		<item id="Watership3"/>
+		<item id="Waterbush1"/>
+		<item id="Waterbush2"/>
+		<item id="Waterbush3"/>
+	</group>
+	<!-- кусты-->
+	<group id="Bush">
+		<item id="bush00123"/>
+		<item id="bush00456"/>
+		<item id="bush123"/>
+		<item id="bush456"/>
+		<item id="bush7"/>
+		<item id="aspidistra1_"/>
+		<item id="bush00789"/>
+		<item id="bush00101112"/>
+	</group>
+	<!-- деревья-->
+	<group id="Tree">
+		<item id="tree01"/>
+		<item id="tree02"/>
+	</group>
+	<group id="Big_Tree">
+		<item id="topiary_tree_big1"/>
+		<item id="topiary_tree3_02"/>
+		<item id="Oak_tree1"/>
+		<item id="Oak_tree2"/>
+	</group>
+	<!-- топиарии-->
+	<!-- свет-->
+	<group id="Gramophone">
+		<item id="Gramophone"/>
+	</group>
+	<group id="SmallLantern">
+		<item id="Lamp01"/>
+		<item id="Lamp02"/>
+		<item id="Lamp03"/>
+		<item id="Lamp04"/>
+		<item id="Lamp05"/>
+		<item id="farm"/>
+		<item id="orient"/>
+		<item id="sphere"/>
+		<item id="out_small"/>
+		<item id="yellow_small"/>
+		<item id="gold_small"/>
+	</group>
+	<group id="Lantern">
+		<item id="streetlight01"/>
+		<item id="streetlight02"/>
+		<item id="streetlight05"/>
+		<item id="farm_big"/>
+		<item id="orient_big"/>
+		<item id="sphere_big"/>
+	</group>
+	<group id="hitorder_fix" hitOrder="+1">
+		<item id="Theatre_Scenery2"/>
+	</group>
+	<!-- Статуи-->
+	<!-- Флаги-->
+	<!-- Карта лабиринта-->
+	<!-- Столик в водном-->
+</Buildings>
